@@ -1,31 +1,36 @@
-# 🖋️ **Reconhecimento de Dígitos Escritos à Mão**
+# 🖋️ Handwritten Digit Recognition
 
-<a href="https://github.com/flipfelly"><img height="25" src="https://img.shields.io/badge/-Felipe Gontijo-black?logo=github&style=flat-square"/></a> 
-<a href="https://github.com/marianamartiyns"><img height="25" src="https://img.shields.io/badge/-Mariana Martins-black?logo=github&style=flat-square"/></a>
+> Machine Learning project for recognizing handwritten digits using the MNIST dataset.
 
-### 🤖 Projeto de Aprendizagem de Máquina
+### > 📋 Description
 
-Bem-vindo ao projeto **Reconhecimento de Dígitos**, onde o objetivo principal é desenvolver e implementar três classificadores para identificar dígitos escritos à mão, utilizando o dataset adaptado do **MNIST**, que contém imagens em escala de cinza dos dígitos **0, 1, 4 e 5**. Este é um problema clássico na área de visão computacional, essencial para a aplicação de técnicas de aprendizado de máquina.
+This project focuses on developing and implementing three classification models to recognize handwritten digits from a modified **MNIST** dataset, containing grayscale images of the digits **0, 1, 4, and 5**. This is a classic problem in computer vision, fundamental for applying machine learning techniques.
 
-### 📂 **Descrição do Projeto**
+### > 🧩 Project Overview
 
-1. **Dataset**:  
-   O dataset MNIST adaptado é composto por imagens de **28x28 pixels** (totalizando **784 pixels** por imagem). Cada pixel possui um valor que indica seu tom de cinza, variando de **0 (branco)** a **255 (preto)**. Os dados de entrada estão organizados em arquivos CSV, onde a primeira coluna indica o dígito correspondente, e as demais colunas contêm os valores dos pixels.
+- [x] `Dataset`: The modified MNIST dataset consists of **28x28 pixel** grayscale images (totaling **784 pixels** per image). Each pixel represents a grayscale intensity ranging from **0 (white)** to **255 (black)**. The dataset is stored in CSV format, where the first column indicates the corresponding digit, and the remaining columns contain pixel values.
+- [x] `Dimensionality Reduction`: To improve efficiency, dimensionality reduction techniques were applied, extracting two key features:
+  - **Image Intensity**
+  - **Symmetry**
+- [x] `Classification Models`: Three linear machine learning models were implemented:
+  - **Perceptron**
+  - **Linear Regression**
+  - **Logistic Regression**
+- [x] `Evaluation`: Model performance is assessed based on classification accuracy, allowing comparisons between different approaches.
 
-2. **Classificadores**:  
-   Foram implementados três modelos lineares de aprendizado de máquina:
-   - **Perceptron**
-   - **Regressão Linear**
-   - **Regressão Logística**
+```py
+# Authors Info
 
-3. **Redução de Dimensão**:  
-   Para melhorar a eficiência dos modelos, foi realizada uma redução na dimensionalidade dos dados, sintetizando as informações em apenas duas características principais:
-   - **Intensidade da Imagem**
-   - **Simetria**
+# LinkedIn: https://www.linkedin.com/in/perfil-felipe-gontijo/
+# GitHub: https://github.com/flipfelly
 
-4. **Avaliação**:  
-   O desempenho dos classificadores será avaliado com base na precisão na identificação dos dígitos, permitindo comparações entre as diferentes abordagens.
+# LinkedIn: https://www.linkedin.com/in/mariana-martins/
+# GitHub: https://github.com/marianamartiyns
+```
 
 <img align="right" width ='40px' src ='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg'> </a>
 <img align="right" width ='40px' src ='https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg'> </a>
+<img align="right" width ='40px' src ='https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg'> </a>
+
+
 
